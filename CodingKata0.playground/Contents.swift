@@ -30,3 +30,10 @@ if baconAge <= 7,
 
 // 3.
 
+func someFunction(someInt: Int) {
+    for number in 0...someInt {
+        print("\(number)")
+    }
+}
+
+someFunction(someInt: 10)

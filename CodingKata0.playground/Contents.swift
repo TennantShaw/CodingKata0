@@ -11,3 +11,22 @@ let secondsInAYear = 365 * day
 
 
 // 2.
+
+var baconAge = 2
+var eggsAge = 12
+
+if baconAge > 7 {
+    print("This bacon is bad")
+}
+
+if eggsAge > 21 {
+    print("Don't eat these")
+}
+
+if baconAge <= 7,
+    eggsAge <= 21 {
+    print("You can cook bacon and eggs")
+}
+
+// 3.
+
